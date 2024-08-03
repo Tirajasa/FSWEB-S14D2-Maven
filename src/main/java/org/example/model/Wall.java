@@ -11,6 +11,9 @@ public Wall(String direction){
         System.out.println("Wall has been built.");
     }
 
+    public String getDirection() {
+        return direction;
+    }
 
     @Override
     public String toString() {

@@ -9,7 +9,7 @@ public class Bedroom extends Room {
     private Wall wall4;
     private Lamp lamp;
     private Carpet carpet;
-    private  Ceiling ceiling;
+    private Ceiling ceiling;
     private Wardrobe wardrobe;
     private Bed bed;
     private String name;

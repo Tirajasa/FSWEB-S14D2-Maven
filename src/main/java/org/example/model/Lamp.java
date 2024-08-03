@@ -21,7 +21,7 @@ public class Lamp {
     public boolean isBattery(){
         return this.battery;
     }
-    public int getGlobalRating(){
+    public int getGlobRating(){
         return globRating;
     }
 
