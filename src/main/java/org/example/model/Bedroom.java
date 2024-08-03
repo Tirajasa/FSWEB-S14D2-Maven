@@ -14,7 +14,7 @@ public class Bedroom extends Room {
     private Bed bed;
     private String name;
 
-    Bedroom(Wall wall1,Wall wall2,Wall wall3,Wall wall4,Lamp lamp,Carpet carpet,
+    public Bedroom(Wall wall1,Wall wall2,Wall wall3,Wall wall4,Lamp lamp,Carpet carpet,
             Ceiling ceiling,Wardrobe wardrobe,Bed bed,String name ){
         this.wall1=wall1;
         this.wall2 =wall2;
@@ -67,5 +67,16 @@ public class Bedroom extends Room {
 
     public String getName() {
         return name;
+    }
+    public void createBedroom(){
+    wardrobe.add();
+    ceiling.create();
+    wall1.create();
+    wall2.create();
+    wall3.create();
+    wall4.create();
+    bed.make();
+    getCarpet().lying();
+    getLamp().turnOn();
     }
 }
